@@ -1,1 +1,1 @@
-# MavenPOMFramemwork
+# MavenPOMFramework
