@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up the report and test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting up the report and test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start he browser and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and application are up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test is end now>>>> Reports Generated]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start he browser and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and application are up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test is end now>>>> Reports Generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18766" started-at="2019-08-16T09:02:04Z" finished-at="2019-08-16T09:02:23Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="8635" started-at="2019-08-16T09:02:04Z" finished-at="2019-08-16T09:02:13Z">
+      <class name="com.learn.testcase.VerifyLandingPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learn.testcase.VerifyLandingPageTest@4667ae56]" name="setup" is-config="true" duration-ms="7185" started-at="2019-08-16T09:02:04Z" finished-at="2019-08-16T09:02:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start he browser and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and application are up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:com.learn.testcase.VerifyLandingPageTest@4667ae56]" name="verifyPageTitle" duration-ms="658" started-at="2019-08-16T09:02:11Z" finished-at="2019-08-16T09:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learn.testcase.VerifyLandingPageTest@4667ae56]" name="tearDownMethod" is-config="true" duration-ms="6" started-at="2019-08-16T09:02:12Z" finished-at="2019-08-16T09:02:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageTitle status=SUCCESS method=VerifyLandingPageTest.verifyPageTitle()[pri:0, instance:com.learn.testcase.VerifyLandingPageTest@4667ae56] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test is end now>>>> Reports Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.learn.testcase.VerifyLandingPageTest@4667ae56]" name="teardown" is-config="true" duration-ms="762" started-at="2019-08-16T09:02:12Z" finished-at="2019-08-16T09:02:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.learn.testcase.VerifyLandingPageTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="10080" started-at="2019-08-16T09:02:13Z" finished-at="2019-08-16T09:02:23Z">
+      <class name="com.learn.testcase.VerifyLoginTest">
+        <test-method status="PASS" signature="setupsuite()[pri:0, instance:com.learn.testcase.VerifyLoginTest@27c20538]" name="setupsuite" is-config="true" duration-ms="885" started-at="2019-08-16T09:02:03Z" finished-at="2019-08-16T09:02:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up the report and test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting up the report and test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupsuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learn.testcase.VerifyLoginTest@27c20538]" name="setup" is-config="true" duration-ms="6048" started-at="2019-08-16T09:02:13Z" finished-at="2019-08-16T09:02:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start he browser and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and application are up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyInvalidlogin()[pri:2, instance:com.learn.testcase.VerifyLoginTest@27c20538]" name="verifyInvalidlogin" duration-ms="3266" started-at="2019-08-16T09:02:19Z" finished-at="2019-08-16T09:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidlogin -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learn.testcase.VerifyLoginTest@27c20538]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-08-16T09:02:22Z" finished-at="2019-08-16T09:02:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidlogin status=SUCCESS method=VerifyLoginTest.verifyInvalidlogin()[pri:2, instance:com.learn.testcase.VerifyLoginTest@27c20538] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test is end now>>>> Reports Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.learn.testcase.VerifyLoginTest@27c20538]" name="teardown" is-config="true" duration-ms="756" started-at="2019-08-16T09:02:22Z" finished-at="2019-08-16T09:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="testdown()[pri:0, instance:com.learn.testcase.VerifyLoginTest@27c20538]" name="testdown" is-config="true" duration-ms="471" started-at="2019-08-16T09:02:23Z" finished-at="2019-08-16T09:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdown -->
+      </class> <!-- com.learn.testcase.VerifyLoginTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

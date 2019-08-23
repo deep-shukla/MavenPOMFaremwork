@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Gmail Suite]">
+  <test thread-count="5" name="LandingPage(failed)">
+    <classes>
+      <class name="com.learn.testcase.VerifyLoginTest">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="setup"/>
+          <include name="verifyValidLogin"/>
+          <include name="setupsuite"/>
+          <include name="verifyInvalidlogin"/>
+        </methods>
+      </class> <!-- com.learn.testcase.VerifyLoginTest -->
+    </classes>
+  </test> <!-- LandingPage(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->
