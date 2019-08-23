@@ -34,7 +34,7 @@ public class BaseClass {
 	
 	@BeforeSuite
 	public void setupsuite() throws IOException{
-		Reporter.log("Setting up the report and test is getting ready", true);
+		Reporter.log("Setting up the report and test is getting ready to run", true);
 		
 		excel= new ExcelDataProvider(); ///Instantiate excel objcet
 		config = new ConfigDataProvider();
