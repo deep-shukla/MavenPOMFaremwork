@@ -23,7 +23,7 @@
 	        <configuration>
          		<suiteXmlFiles>
             		<!-- <suiteXmlFile>C:\Users\Deep.Shukla\Desktop\Automation\MavenPOMFramework\maven\testng2.xml</suiteXmlFile> -->
-            		<suiteXmlFile>testng.xml</suiteXmlFile>
+            		<suiteXmlFile>testng2.xml</suiteXmlFile>
           		</suiteXmlFiles>
         	</configuration>        	
       	</plugin>
