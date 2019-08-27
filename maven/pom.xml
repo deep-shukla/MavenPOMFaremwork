@@ -22,7 +22,8 @@
 	        <version>3.0.0-M3</version>
 	        <configuration>
          		<suiteXmlFiles>
-            		<suiteXmlFile>C:\Users\Deep.Shukla\Desktop\Automation\maven1\testng2.xml</suiteXmlFile>
+            		<!-- <suiteXmlFile>C:\Users\Deep.Shukla\Desktop\Automation\MavenPOMFramework\maven\testng2.xml</suiteXmlFile> -->
+            		<suiteXmlFile>testng.xml</suiteXmlFile>
           		</suiteXmlFiles>
         	</configuration>        	
       	</plugin>
