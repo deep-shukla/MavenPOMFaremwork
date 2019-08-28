@@ -2,6 +2,8 @@ package pages;
 
 import java.io.File;
 import java.io.IOException;
+
+import org.apache.commons.mail.EmailException;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.Reporter;
@@ -16,10 +18,8 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import utility.BrowserUtility;
-import utility.ConfigDataProvider;
-import utility.ExcelDataProvider;
-import utility.UIUtils;
+import utility.*;
+
 
 
 public class BaseClass {
@@ -87,7 +87,9 @@ public class BaseClass {
 	}
 	
 	@AfterSuite
-	public void testdown(){
-		report.flush();		
+	public void testdown() throws EmailException{
+		EmailUtility.sendEmail();
+		report.flush();	
+		
 	}
 }

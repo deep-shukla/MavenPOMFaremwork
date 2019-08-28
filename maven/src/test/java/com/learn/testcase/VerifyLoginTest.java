@@ -17,7 +17,7 @@ public class VerifyLoginTest extends BaseClass{
 	
 	//public static WebDriver driver;
 		
-	@Test (priority=2)
+	/*@Test (priority=2)
 	public void verifyValidLogin() throws Exception{		
 				
 		logger=report.createTest("Start the Application:verifyValidLogin");		
@@ -32,7 +32,7 @@ public class VerifyLoginTest extends BaseClass{
 		logger.pass("User LoggedIn successfully");
 		dashboard.Logout();		
 		System.out.println("test case 2");
-	}
+	}*/
 	
 	
 	@Test (priority=1)
