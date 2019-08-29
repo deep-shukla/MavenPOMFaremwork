@@ -10,6 +10,7 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import com.aventstack.extentreports.ExtentReports;
@@ -44,7 +45,7 @@ public class BaseClass {
 		Reporter.log("Setting up the report and test can be started", true);
 	}
 	 
-	@BeforeTest
+	@BeforeMethod
 	public void setup(){
 		
 		Reporter.log("Trying to start he browser and getting application ready", true);
@@ -76,20 +77,18 @@ public class BaseClass {
 			logger.skip(MarkupHelper.createLabel(result.getName() + " Test case passed ", ExtentColor.YELLOW));
 		}
 		Reporter.log("Test is end now>>>> Reports Generated", true);
-		//report.flush();		
-		//BrowserUtility.quit(driver);
-	}
-	
-		
-	@AfterClass
-	public void teardown(){	
 		BrowserUtility.quit(driver);
 	}
 	
+		
+	/*@AfterClass
+	public void teardown(){	
+		BrowserUtility.quit(driver);
+	}*/
+	
 	@AfterSuite
 	public void testdown() throws EmailException{
-		EmailUtility.sendEmail();
-		report.flush();	
-		
+		report.flush();
+		EmailUtility.sendEmail();		
 	}
 }

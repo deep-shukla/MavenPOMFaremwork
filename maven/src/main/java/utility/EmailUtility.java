@@ -13,8 +13,8 @@ public class EmailUtility {
 			System.out.println("============Email test report initiated============");
 			Email email = new SimpleEmail();
 			email.setHostName("smtp.gmail.com");
-			email.setSmtpPort(465);
-			email.setAuthenticator(new DefaultAuthenticator("deep.tbsl@gmail.com", "Moodle@123"));
+			email.setSmtpPort(587);
+			email.setAuthenticator(new DefaultAuthenticator("harshitap001@gmail.com", "Microsoft@123"));
 			email.setSSLOnConnect(true);
 			email.setFrom("deep.tbsl@gmail.com");
 			email.setSubject("Test Report");
